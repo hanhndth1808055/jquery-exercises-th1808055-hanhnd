@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main Page</title>
+    <script src="../jquery/jquery-3.3.1.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <style>
+        .carousel-inner img {
+            width: 100%;
+        }
+
+        .carousel-caption {
+            text-shadow: black 1px 0 10px;
+            color: rgba(203, 248, 88, 0.87);
+            font-size: xx-large;
+        }
+
+        .carousel-caption .btn {
+            color: green;
+            text-shadow: none;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark fixed-top">
+        <a href="#" class="navbar-brand">MAMXANH</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav p-2 mr-auto">
+                <li class="nav-item active">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Link</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <input type="text" placeholder="Search" class="form-control mr-sm-2" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+</header>
+<main role="main">
+    <div class="carousel slide" id="slide" data-ride="carousel">
+        <!--Indicators-->
+        <ul class="carousel-indicators">
+            <li data-target="#slide" data-slide-to="0" class="active"></li>
+            <li data-target="#slide" data-slide-to="1"></li>
+            <li data-target="#slide" data-slide-to="2"></li>
+        </ul>
+        <!--The slideshow-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://previews.123rf.com/images/boarding1now/boarding1now1710/boarding1now171000097/87941139-fruits-fruit-food-collection-background-banner-orange-apple-apples-lemon-berries-cherries.jpg"
+                     width="1100" height="400" alt="fruit1">
+                <div class="carousel-caption">
+                    <h2>MamXanh and your organic diet</h2>
+                    <p>It's our pleasure to have you here.</p>
+                    <div class="btn btn-light">Learn More</div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="http://www.farmersfresh.com/images/banner-harvest.jpg" width="1100" height="400"
+                     alt="mushroom">
+                <div class="carousel-caption">
+                    <h2>We do wholesales on Straw Mushroom</h2>
+                    <p>Especially in Winter, at a desirable price</p>
+                    <div class="btn btn-light">Learn More</div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="http://saravanamooligaichicken.com/wp-content/uploads/2016/06/Banner-01-1600x453.jpg"
+                     width="1100" height="400" alt="chicken">
+                <div class="carousel-caption">
+                    <h2>Tet's Chicken</h2>
+                    <p>For this Tet holiday, we have a special offers for Chicken when purchasing more than 3
+                        chickens.</p>
+                    <div class="btn btn-light">Learn More</div>
+                </div>
+            </div>
+        </div>
+
+        <!--Carousel left and right controls-->
+        <a class="carousel-control-prev" href="#slide" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#slide" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 p-2 text-center">
+                <div class="row">
+                    <img class="rounded-circle m-auto"
+                         src="http://www.hxcorp.com.vn/public/userupload/images/straw%20mushroom.jpg" width="140px"
+                         height="140px" alt="item1">
+                </div>
+                <h3>Straw Mushroom</h3>
+                <p class="text-justify">Wholesales from 10 kilos! Desirable price! Only 11x.000 VND per kilo! Retail
+                    price at only 140.000VND!</p>
+                <p><a href="#" class="btn btn-secondary" role="button">View details</a></p>
+            </div>
+            <div class="col-md-4 p-2 text-center">
+                <div class="row">
+                    <img class="rounded-circle m-auto"
+                         src="http://www.hxcorp.com.vn/public/userupload/images/straw%20mushroom.jpg" width="140px"
+                         height="140px" alt="item1">
+                </div>
+                <h3>Straw Mushroom</h3>
+                <p class="text-justify">Wholesales from 10 kilos! Desirable price! Only 11x.000 VND per kilo! Retail
+                    price at only 140.000VND!</p>
+                <p><a href="#" class="btn btn-secondary" role="button">View details</a></p>
+            </div>
+            <div class="col-md-4 p-2 text-center">
+                <div class="row">
+                    <img class="rounded-circle m-auto"
+                         src="http://www.hxcorp.com.vn/public/userupload/images/straw%20mushroom.jpg" width="140px"
+                         height="140px" alt="item1">
+                </div>
+                <h3>Straw Mushroom</h3>
+                <p class="text-justify">Wholesales from 10 kilos! Desirable price! Only 11x.000 VND per kilo! Retail
+                    price at only 140.000VND!</p>
+                <p><a href="#" class="btn btn-secondary" role="button">View details</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 p-3">
+                <h3>Straw Mushroom Chicken Soup Recipe - <span class="text-muted">Homemade Chicken Soup</span></h3>
+                <div class="row">
+                    <ul><h4>Ingredients</h4>
+                        <li>1 tablespoon vegetable oil</li>
+                        <li>2 teaspoons dark sesame oil</li>
+                        <li>2 tablespoons finely chopped garlic</li>
+                        <li>1 tablespoon grated gingerroot</li>
+                        <li>1 package (3.5 to 4 oz) fresh shiitake or gourmet blend mushrooms,
+                            thinly sliced
+                        </li>
+                        <li>2 boneless skinless chicken breasts</li>
+                        <li>1 tablespoon refrigerated lemongrass paste (from 4-oz tube)</li>
+                        <li>1 can (15 oz) straw mushrooms, drained</li>
+                        <li>2 cans (4 oz each) mushrooms pieces and stems, drained</li>
+                        <li>1 carton (32 oz) Progresso™ chicken broth (4 cups)</li>
+                        <li>1/2 cup sliced green onions (8 medium)</li>
+                    </ul>
+                    <ol><h4>Steps</h4>
+                        <li class="text-justify">Spray 5- to 6-quart slow cooker with cooking spray. In 10-inch skillet,
+                            heat vegetable oil
+                            and sesame oil over mediumhigh heat. Add garlic, gingerroot and shiitake mushrooms; cook 4
+                            to 5 minutes, stirring frequently, until mushrooms begin to brown. Spoon mixture into slow
+                            cooker. Add chicken to skillet; cook 6 minutes, turning once, until lightly browned. Place
+                            chicken on mushroom mixture in slow cooker.
+                        </li>
+                        <li class="text-justify">Add lemongrass paste, canned mushrooms and broth to slow cooker; stir
+                            to combine.
+                        </li>
+                        <li class="text-justify">Cover; cook on Low heat setting 4 hours.
+                        </li>
+                        <li class="text-justify">Remove chicken from slow cooker to plate; shred chicken, using 2 forks.
+                            Add shredded
+                            chicken and onions to slow cooker; stir to combine.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid"
+                     src="http://img.everychina.com/nimg/a2/27/77c041f4cc89f0e7a62728736289-600x600-0/salted_straw_mushroom.jpg"
+                     alt="canhnamrom">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <img class="img-fluid"
+                     src="http://img.everychina.com/nimg/a2/27/77c041f4cc89f0e7a62728736289-600x600-0/salted_straw_mushroom.jpg"
+                     alt="canhnamrom">
+            </div>
+            <div class="col-md-8 p-3">
+                <h3>Straw Mushroom Chicken Soup Recipe - <span class="text-muted">Homemade Chicken Soup</span></h3>
+                <div class="row">
+                    <ul><h4>Ingredients</h4>
+                        <li>1 tablespoon vegetable oil</li>
+                        <li>2 teaspoons dark sesame oil</li>
+                        <li>2 tablespoons finely chopped garlic</li>
+                        <li>1 tablespoon grated gingerroot</li>
+                        <li>1 package (3.5 to 4 oz) fresh shiitake or gourmet blend mushrooms,
+                            thinly sliced
+                        </li>
+                        <li>2 boneless skinless chicken breasts</li>
+                        <li>1 tablespoon refrigerated lemongrass paste (from 4-oz tube)</li>
+                        <li>1 can (15 oz) straw mushrooms, drained</li>
+                        <li>2 cans (4 oz each) mushrooms pieces and stems, drained</li>
+                        <li>1 carton (32 oz) Progresso™ chicken broth (4 cups)</li>
+                        <li>1/2 cup sliced green onions (8 medium)</li>
+                    </ul>
+                    <ol><h4>Steps</h4>
+                        <li class="text-justify">Spray 5- to 6-quart slow cooker with cooking spray. In 10-inch skillet,
+                            heat vegetable oil
+                            and sesame oil over mediumhigh heat. Add garlic, gingerroot and shiitake mushrooms; cook 4
+                            to 5 minutes, stirring frequently, until mushrooms begin to brown. Spoon mixture into slow
+                            cooker. Add chicken to skillet; cook 6 minutes, turning once, until lightly browned. Place
+                            chicken on mushroom mixture in slow cooker.
+                        </li>
+                        <li class="text-justify">Add lemongrass paste, canned mushrooms and broth to slow cooker; stir
+                            to combine.
+                        </li>
+                        <li class="text-justify">Cover; cook on Low heat setting 4 hours.
+                        </li>
+                        <li class="text-justify">Remove chicken from slow cooker to plate; shred chicken, using 2 forks.
+                            Add shredded
+                            chicken and onions to slow cooker; stir to combine.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-8 p-3">
+                <h3>Straw Mushroom Chicken Soup Recipe - <span class="text-muted">Homemade Chicken Soup</span></h3>
+                <div class="row">
+                    <ul><h4>Ingredients</h4>
+                        <li>1 tablespoon vegetable oil</li>
+                        <li>2 teaspoons dark sesame oil</li>
+                        <li>2 tablespoons finely chopped garlic</li>
+                        <li>1 tablespoon grated gingerroot</li>
+                        <li>1 package (3.5 to 4 oz) fresh shiitake or gourmet blend mushrooms,
+                            thinly sliced
+                        </li>
+                        <li>2 boneless skinless chicken breasts</li>
+                        <li>1 tablespoon refrigerated lemongrass paste (from 4-oz tube)</li>
+                        <li>1 can (15 oz) straw mushrooms, drained</li>
+                        <li>2 cans (4 oz each) mushrooms pieces and stems, drained</li>
+                        <li>1 carton (32 oz) Progresso™ chicken broth (4 cups)</li>
+                        <li>1/2 cup sliced green onions (8 medium)</li>
+                    </ul>
+                    <ol><h4>Steps</h4>
+                        <li class="text-justify">Spray 5- to 6-quart slow cooker with cooking spray. In 10-inch skillet,
+                            heat vegetable oil
+                            and sesame oil over mediumhigh heat. Add garlic, gingerroot and shiitake mushrooms; cook 4
+                            to 5 minutes, stirring frequently, until mushrooms begin to brown. Spoon mixture into slow
+                            cooker. Add chicken to skillet; cook 6 minutes, turning once, until lightly browned. Place
+                            chicken on mushroom mixture in slow cooker.
+                        </li>
+                        <li class="text-justify">Add lemongrass paste, canned mushrooms and broth to slow cooker; stir
+                            to combine.
+                        </li>
+                        <li class="text-justify">Cover; cook on Low heat setting 4 hours.
+                        </li>
+                        <li class="text-justify">Remove chicken from slow cooker to plate; shred chicken, using 2 forks.
+                            Add shredded
+                            chicken and onions to slow cooker; stir to combine.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid"
+                     src="http://img.everychina.com/nimg/a2/27/77c041f4cc89f0e7a62728736289-600x600-0/salted_straw_mushroom.jpg"
+                     alt="canhnamrom">
+            </div>
+        </div>
+        <hr>
+    </div>
+</main>
+<footer class="container">
+    <div class="col-8"><span>&copy; 2017-2018 Company, Inc. </span>
+        <li class="list-inline-item"><a href="#">Privacy</a></li>
+        <li class="list-inline-item"><a
+                href="#">Terms</a></li>
+    </div>
+    <div class="col-4 text-right"><a href="#">Back to top</a></div>
+</footer>
+</body>
+</html>
